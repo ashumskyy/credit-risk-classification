@@ -10,6 +10,6 @@ After that I trained the model on the oversampled data to mitigate the class imb
 The model's performance is evaluated using various metrics such as accuracy, precision, recall, f1-score, which indicate the model's effectiveness in predicting high or low-risk loans. The confusion matrices were shown. 
 The model achieved high precision, recall, and f1-scores for both classes in the training and testing classification reports, indicating its ability to accurately predict loan risk categories.
 
-The model's performance was compared to that of other models to determine its effectiveness in predicting loan risk categories.
+Compared to the model trained on non-oversampled data, the oversampled model performed better in predicting high-risk loans.
 The model's performance is not affected by overfitting, indicating that the model can generalize well to new data.
 The model can be used to predict loan risk categories for new loan applications, allowing lenders to make informed decisions and mitigate the risks associated with lending.
